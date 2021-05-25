@@ -26,8 +26,9 @@ body {
 }
 .sidebar {
   flex: 1;
-  height: 100vh;
+  height: 200vh;
   background-color: #afc7ac;
+  color: white;
 }
 .content {
   flex: 1;
@@ -49,4 +50,77 @@ body {
 .paragraph {
   color: #979191;
   font-size: 16px;
+}
+.image {
+  border: 3px solid white;
+  border-radius: 15px;
+  padding: 7px;
+  width: 360px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+}
+.name {
+  height: 20vh;
+  width: 20%;
+  font-size: 45px;
+  text-transform: uppercase;
+  padding-left: 150px;
+  padding-top: 40px;
+  letter-spacing: 2px;
+}
+.job_title {
+  height: 15vh;
+  width: 90%;
+  font-size: 30px;
+  font-style: italic;
+  padding-left: 150px;
+  padding-top: 40px;
+  letter-spacing: 2px;
+}
+.job_title::after {
+  display: block;
+  content: "";
+  width: 30%;
+  height: 6px;
+  background: white;
+
+  position: absolute;
+  bottom: 0;
+  left: 200px;
+  right: 50px;
+}
+
+.job_title {
+  position: relative;
+}
+
+.contact {
+  display: block;
+  font-style: italic;
+  padding-left: 150px;
+}
+
+address {
+  display: block;
+  font-style: italic;
+  padding-left: 150px;
+}
+.btn-linkedin {
+  background: #0e76a8;
+  border-radius: 0;
+  color: #fff;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #084461;
+  margin-left: 150px;
+}
+.btn-linkedin:link,
+.btn-linkedin:visited {
+  color: #fff;
+}
+.btn-linkedin:active,
+.btn-linkedin:hover {
+  background: #084461;
+  color: #fff;
 }
