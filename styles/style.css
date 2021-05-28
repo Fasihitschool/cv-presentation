@@ -26,7 +26,7 @@ body {
 }
 .sidebar {
   flex: 1;
-  height: 200vh;
+  height: 310vh;
   background-color: #afc7ac;
   color: white;
 }
@@ -65,7 +65,7 @@ body {
   width: 20%;
   font-size: 45px;
   text-transform: uppercase;
-  padding-left: 150px;
+  padding-left: 100px;
   padding-top: 40px;
   letter-spacing: 2px;
 }
@@ -74,7 +74,7 @@ body {
   width: 90%;
   font-size: 30px;
   font-style: italic;
-  padding-left: 150px;
+  padding-left: 100px;
   padding-top: 40px;
   letter-spacing: 2px;
 }
@@ -87,7 +87,7 @@ body {
 
   position: absolute;
   bottom: 0;
-  left: 200px;
+  left: 150px;
   right: 50px;
 }
 
@@ -98,13 +98,13 @@ body {
 .contact {
   display: block;
   font-style: italic;
-  padding-left: 150px;
+  padding-left: 100px;
 }
 
 address {
   display: block;
   font-style: italic;
-  padding-left: 150px;
+  padding-left: 100px;
 }
 .btn-linkedin {
   background: #0e76a8;
@@ -113,7 +113,7 @@ address {
   border-width: 1px;
   border-style: solid;
   border-color: #084461;
-  margin-left: 150px;
+  margin-left: 100px;
 }
 .btn-linkedin:link,
 .btn-linkedin:visited {
@@ -123,4 +123,20 @@ address {
 .btn-linkedin:hover {
   background: #084461;
   color: #fff;
+}
+.button_header {
+  display: flex;
+  height: 8vh;
+  font-size: medium;
+  margin-left: 30px;
+}
+.links {
+  background-color: white;
+  width: 40%;
+  margin-left: 50px;
+  height: 10vh;
+  font-size: 20px;
+  align-content: center;
+  position: relative;
+  z-index: 100;
 }
